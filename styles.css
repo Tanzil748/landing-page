@@ -117,6 +117,30 @@ h1 {
     text-align: right;
 }
 
+ .action-section {
+    margin: 100px;
+ }
+
+ .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    gap: 40px;
+    margin: 0 200px;
+    border-radius: 10px;
+ }
+
+ .action-section button {
+    color:#e5e7eb;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    font-size: 20px;
+    padding: 10px;
+ }
+
 .footer {
     text-align: center;
 }
