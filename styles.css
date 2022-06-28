@@ -2,10 +2,8 @@ body {
     display:flex;
     flex-direction: column;
     margin : 0;
-    /* min-height: 100vh; */
     font-family:Arial, Helvetica, sans-serif;
 }
-
 
 .header , .footer {
     background-color: #1f2937;
@@ -37,16 +35,40 @@ a {
     color: #f9faf8;
 }
 
-.hero-container {
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    min-height: 100vh;
+    min-height: 50vh;
+    gap: 50px;
 }
 
-.shrek {
-    
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-container {
+    flex-basis: 25%; /*this helped size the flex-item*/
+}
+
+.hero button {
+    background-color: #3882f6;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.shrek {  /*image too big, need to correct size*/
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .footer {
