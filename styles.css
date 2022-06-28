@@ -1,0 +1,54 @@
+body {
+    display:flex;
+    flex-direction: column;
+    margin : 0;
+    /* min-height: 100vh; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.header , .footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo, .footer {
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none; /*removed bullet point*/
+    display: flex;
+    gap: 10px; /*space between header options*/
+}
+
+a {
+    text-decoration: none; /*removed underline*/
+    color: #f9faf8;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    min-height: 100vh;
+}
+
+.shrek {
+    
+}
+
+.footer {
+    text-align: center;
+}
