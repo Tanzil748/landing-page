@@ -35,12 +35,15 @@ a {
     color: #f9faf8;
 }
 
+.hero, .random, .quote, .action-button {
+    min-height: 50vh;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    min-height: 50vh;
     gap: 50px;
 }
 
@@ -69,6 +72,30 @@ h1 {
 .shrek {  /*image too big, need to correct size*/
     max-width: 350px;
     max-height: 350px;
+}
+
+.random h3 {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.random-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.random-container img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10%;
+}
+
+.random-container p {
+    text-align: center;
 }
 
 .footer {
